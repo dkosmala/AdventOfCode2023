@@ -1,4 +1,4 @@
 ﻿using AOC2023;
 
-Day3 day = new Day3();
+Day4 day = new Day4();
 day.run();
