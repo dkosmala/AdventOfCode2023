@@ -3,10 +3,6 @@
 namespace AOC2023;
 public class Day4
 {
-   private struct cardResult {
-      public int cardNum;
-      public int wins;
-   }
    public void run() {
       string[] raw = System.IO.File.ReadAllLines(@"C:\code\AdventOfCode2023\AOC2023\Day 4\input.txt");
       List<string> lines = raw.ToList();
