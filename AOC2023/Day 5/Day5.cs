@@ -62,8 +62,6 @@ public class Day5
       List<Mapping> mappings = new List<Mapping>();
       List<List<Mapping>> groups = new List<List<Mapping>>();
 
-      long min = -1;
-
       foreach (string line in lines.Skip(2))
       {
          if (Regex.IsMatch(line, @"[a-z]"))
